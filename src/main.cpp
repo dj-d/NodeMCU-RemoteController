@@ -9,7 +9,7 @@ const char* ssid = "YOUR_WIFI_SSID";
 const char* password = "YOUR_WIFI_PASSWORD";
 WiFiServer server(80);
 
-IRsend irsend(4);  // IR LED is controlled by GPIO pin 4 (D2)
+IRsend irsend(14);  // IR LED is controlled by GPIO14 (D5)
 
 void setup(void) {
   irsend.begin();
