@@ -55,8 +55,8 @@
 
 /*********************************************************************/
 
-const char *ssid = "ALBANESE";
-const char *password = "0101010101";
+const char *ssid = "YOUR_WIFI_SSID";
+const char *password = "YOUR_WIFI_PASSWORD";
 ESP8266WebServer server(80);
 
 IRsend irsend(14);  // IR LED is controlled by GPIO 14 (D5)
